@@ -41,6 +41,14 @@ def transform(main_df, brand_keyword_df, industry_tags_df):
                 return industry, keyword
         return "Undefined", "No Keyword Found"  # No match found
 
+    def channel_tagging(channel):
+      if channel.lower() in ['static qr', 'dynamic qr', 'barcode qr']:
+        return 'In-store QR'
+      elif channel.lower() == 'qrph':
+        return 'Any in-store QR'
+      else:
+        return channel
+
     # Standardize the merchant_name entries
     main_df['merchant_name'] = main_df['merchant_name'].astype(str).str.upper().str.strip()
     main_df['merchant_name'] = main_df['merchant_name'].str.replace('-',' ')
@@ -55,6 +63,9 @@ def transform(main_df, brand_keyword_df, industry_tags_df):
     main_df['Industry'] = industry_results.apply(lambda x: x[0])
     main_df['Keyword Basis for Industry'] = industry_results.apply(lambda x: x[1])
 
+    # Apply Channel Tagging
+    main_df['Channel Tags'] = main_df['channel'].apply(channel_tagging)
+  
     return main_df
 
 def load_to_csv(transformed_df, file_name):
