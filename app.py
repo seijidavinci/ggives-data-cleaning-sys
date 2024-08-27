@@ -13,7 +13,7 @@ st.set_page_config(page_title="GGives Tagger",
                    initial_sidebar_state="auto", 
                    menu_items=None)
 
-st.image('assets\GGIVES_MERCHANT_BRAND_TAGGING_[DRAFT 1].svg', use_column_width="auto")
+st.image('assets/GGIVES-BANNER.png', use_column_width="auto")
 
 st.header('GGives Merchant Brand Tagging', divider='grey')
 st.write("This tool simplifies the cleaning and tagging of Merchants' Raw Data by transforming the raw extracted data and loading it into clear and understandable manner, and downloadable table.")
