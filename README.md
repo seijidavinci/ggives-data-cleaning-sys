@@ -30,6 +30,6 @@ The application addresses the issue of maintaining a disorganized and outdated m
 Adherence to these rules is crucial because the application’s code is specifically designed to operate based on these formats. Any deviations, such as changes in file type, header names, or keyword formatting, can cause errors and malfunction. By following these guidelines, you ensure the tool performs correctly, maintaining data integrity and operational efficiency.
 
 ## Support
-For support, email eujinrodsagun@gmail.com.
+For support, email eujinrodlsagun@gmail.com
 
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eujinrodsagun/)
