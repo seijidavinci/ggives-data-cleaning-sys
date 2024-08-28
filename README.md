@@ -9,7 +9,7 @@ This Streamlit web application is designed to help you efficiently clean and cat
 *Project Goal:*
 The primary goal of this project is to create an organized and accurate masterlist of Gives merchants, categorized by channel, industry, and brand. This organized data will enable easier access, improve data analysis accuracy, and support strategic planning by providing key insights into merchant performance. While 100% accuracy may not be achievable within the project's 11-week timeline, significant progress is expected in automating and streamlining data management.
 
-#Problem Statement:#
+*Problem Statement:*
 The application addresses the issue of maintaining a disorganized and outdated merchant list with inconsistent brand and industry tagging. This problem complicates the analysis of merchant data and hinders data-driven decision-making, leading to inefficiencies in strategic planning and execution.
 
 *Rules and Requirements:*
